@@ -1,28 +1,47 @@
-.attribution { 
-    font-size: 11px; 
-    text-align: center; 
-}
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
-.attribution a {
-    color: hsl(228, 45%, 44%); 
-}
-
-.card {
-    display: flex;
-    flex-direction: column;
-    background-color: hsl(0, 0%, 100%);
-    justify-content: center;
-    align-items: center;
-    padding: 30px;
-    border-radius: 15px;
-}
-
-img {
-    width: 300px;
-    border-radius: 15px;
+* {
+    padding: 0;
+    margin: 0;
 }
 
 body {
+    font-family: "Outfit", sans-serif;
     background-color: hsl(212, 45%, 89%);
-    height: 1440px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 400px;
+    background-color: #fff;
+    border-radius: 18px;
+}
+
+.card {
+    margin: 20px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+
+.text-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+p {
+    font-weight: 400;
+    font-size: 15px;
 }
